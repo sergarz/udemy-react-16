@@ -1,0 +1,13 @@
+.char {
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  margin: 16px;
+  border: 1px solid #000;
+}
+
+@media (min-width: 500px) {
+  .char {
+    width: 450px;
+  }
+}

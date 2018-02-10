@@ -1,0 +1,23 @@
+.text-validation {
+  display: inline-block;
+}
+
+.text-validation__message {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+
+  color: #fff;
+}
+
+.text-validation__message--error {
+  border-left: 8px solid #ff0000;
+
+  background-color: #e58787;
+}
+
+.text-validation__message--valid {
+  border-left: 8px solid #00ff55;
+
+  background-color: #76cc8b;
+}
